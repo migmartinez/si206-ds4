@@ -1,11 +1,6 @@
 # ReadMe
 The File we are running contains two functions, **factorial** and **check_leap_year**.
 
-In this discussion section you will need to design test cases to test whether the code in these functions is correct.
-
-The following section provides the syntax for invoking the methods, and English descriptions of what each function is supposed to do.
-
-You should plan and then write tests in your groups for these methods. Then we'll test our code and see if it works!
 
 ## factorial(num)
 |Parameter| Function Description|
@@ -28,19 +23,4 @@ For example:
 ```check_leap_year(1912)``` should return ```True```  
 ```check_leap_year(2000)``` should return ```True```  
 
-### Things to keep in mind as you go
-1. Fork the DS4 repository here - https://github.com/yjlintw/si206-ds4. 
 
-2. Clone the DS4 repository that you just forked. Do not clone this one, you won't have the permission to push to this repo. ```git clone <remote repo URL>```
-
-2. Check status continuously to keep track of changes in your code and directory ```git status```
-
-3. After writing each test, add your modified code to the local repo ```git add <filename>```
-
-4. Commit the changes in code to the local repo ```git commit -m <commit message>```
-
-5. After each commit, check the history of your commits ```git log```
-
-6. Once all test cases are done, push your code to github to the repo you had forked from DS4. (Use the same URL you had used for cloning)
-  
-  ```git push origin master```
